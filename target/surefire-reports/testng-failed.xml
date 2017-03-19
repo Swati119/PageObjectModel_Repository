@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="Login(failed)">
     <classes>
       <class name="com.phptravels.testCases.Login">
         <methods>
+          <include name="loginToApplication"/>
           <include name="LaunchBrowser"/>
-          <include name="logout"/>
         </methods>
       </class> <!-- com.phptravels.testCases.Login -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

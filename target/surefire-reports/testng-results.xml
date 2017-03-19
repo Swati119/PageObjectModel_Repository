@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="17070" started-at="2017-03-19T11:28:55Z" finished-at="2017-03-19T11:29:12Z">
+  <suite name="Suite1" duration-ms="28341" started-at="2017-03-19T14:28:06Z" finished-at="2017-03-19T14:28:35Z">
     <groups>
     </groups>
-    <test name="Login" duration-ms="17070" started-at="2017-03-19T11:28:55Z" finished-at="2017-03-19T11:29:12Z">
+    <test name="Login" duration-ms="28341" started-at="2017-03-19T14:28:06Z" finished-at="2017-03-19T14:28:35Z">
       <class name="com.phptravels.testCases.Login">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="LaunchBrowser" is-config="true" duration-ms="9843" started-at="2017-03-19T16:58:55Z" finished-at="2017-03-19T16:59:05Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="LaunchBrowser" is-config="true" duration-ms="12544" started-at="2017-03-19T19:58:06Z" finished-at="2017-03-19T19:58:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="browseToUrl()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="browseToUrl" duration-ms="5879" started-at="2017-03-19T16:59:05Z" finished-at="2017-03-19T16:59:11Z">
+        <test-method status="PASS" signature="browseToUrl()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="browseToUrl" duration-ms="9419" started-at="2017-03-19T19:58:19Z" finished-at="2017-03-19T19:58:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseToUrl -->
-        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="loginToApplication" duration-ms="1322" started-at="2017-03-19T16:59:11Z" finished-at="2017-03-19T16:59:12Z">
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="loginToApplication" duration-ms="4155" started-at="2017-03-19T19:58:28Z" finished-at="2017-03-19T19:58:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="logout" duration-ms="2172" started-at="2017-03-19T19:58:32Z" finished-at="2017-03-19T19:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
       </class> <!-- com.phptravels.testCases.Login -->
     </test> <!-- Login -->
   </suite> <!-- Suite1 -->

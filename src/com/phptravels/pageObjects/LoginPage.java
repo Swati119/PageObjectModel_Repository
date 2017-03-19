@@ -1,5 +1,7 @@
 package com.phptravels.pageObjects;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +20,7 @@ import junit.framework.Assert;
 public class LoginPage {
 	
 	WebDriver driver;
-	WebUtils webUtil = new WebUtils(driver);
+	
 	
 	public LoginPage(WebDriver driver){
 		this.driver = driver;
@@ -84,6 +86,17 @@ public class LoginPage {
 			
 			System.out.println("printing from catch part");
 		}
+		return result;
+	}
+	
+	public String validatePageTitle(){
+		String result = "Failed";
+		WebUtils webUtil = new WebUtils(driver);
+		WebDriverWait wait = webUtil.explicitWait(30);
+		wait.until(ExpectedConditions.titleIs("Login"));
+		String pageTitle = driver.getTitle();
+		Assert.assertEquals(pageTitle, "Login");
+		result = "Passed";
 		return result;
 	}
 }
