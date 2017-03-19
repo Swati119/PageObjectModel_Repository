@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="17070" started-at="2017-03-19T11:28:55Z" finished-at="2017-03-19T11:29:12Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="17070" started-at="2017-03-19T11:28:55Z" finished-at="2017-03-19T11:29:12Z">
+      <class name="com.phptravels.testCases.Login">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="LaunchBrowser" is-config="true" duration-ms="9843" started-at="2017-03-19T16:58:55Z" finished-at="2017-03-19T16:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="browseToUrl()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="browseToUrl" duration-ms="5879" started-at="2017-03-19T16:59:05Z" finished-at="2017-03-19T16:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseToUrl -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.phptravels.testCases.Login@8bc3d5]" name="loginToApplication" duration-ms="1322" started-at="2017-03-19T16:59:11Z" finished-at="2017-03-19T16:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+      </class> <!-- com.phptravels.testCases.Login -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite1 -->
+</testng-results>
