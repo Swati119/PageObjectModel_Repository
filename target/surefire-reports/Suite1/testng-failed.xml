@@ -6,7 +6,9 @@
       <class name="com.phptravels.testCases.Login">
         <methods>
           <include name="loginToApplication"/>
+          <include name="browseToUrl"/>
           <include name="LaunchBrowser"/>
+          <include name="logout"/>
         </methods>
       </class> <!-- com.phptravels.testCases.Login -->
     </classes>

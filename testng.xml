@@ -9,7 +9,13 @@
  
   <test name="Login">
     <classes>
-      <class name="com.phptravels.testCases.Login"/>
+      <class name="com.phptravels.testCases.Login">
+      	<methods>
+      		<include name = "browseToUrl"/>
+      		<include name = "loginToApplication"/>
+      		<!-- <exclude name="logout" /> -->
+      	</methods>
+      </class>
     </classes>
   </test>
 </suite>
